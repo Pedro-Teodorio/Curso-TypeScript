@@ -1,5 +1,5 @@
 "use strict";
-function showProductDetails(product) {
+function showProductDetail(product) {
     console.log(`O nome do produto é ${product.name} e seu preço é ${product.price}`);
     if (product.isAvaliable)
         console.log(`O produto está disponivel`);
@@ -9,4 +9,4 @@ const shirtNBA = {
     price: 20.99,
     isAvaliable: true,
 };
-showProductDetails(shirtNBA);
+showProductDetail(shirtNBA);

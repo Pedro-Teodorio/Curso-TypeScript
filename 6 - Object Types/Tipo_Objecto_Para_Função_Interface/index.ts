@@ -3,7 +3,7 @@ interface Product {
   price: number;
   isAvaliable: boolean;
 }
-function showProductDetails(product: Product) {
+function showProductDetail(product: Product) {
   console.log(
     `O nome do produto é ${product.name} e seu preço é ${product.price}`
   );
@@ -15,4 +15,4 @@ const shirtNBA: Product = {
   price: 20.99,
   isAvaliable: true,
 };
-showProductDetails(shirtNBA);
+showProductDetail(shirtNBA);
